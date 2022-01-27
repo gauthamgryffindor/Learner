@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MregisterActivity">
+
+    <EditText
+        android:id="@+id/Mentorname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:paddingTop="20dp"
+        android:inputType="textPersonName"
+        android:textColor="#6B38C6"
+        android:textColorHint="#6B38C6"/>
+
+    <EditText
+        android:id="@+id/Mtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingTop="20dp"
+        android:textColor="#6B38C6"
+        android:textColorHint="#6B38C6"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/SclNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingTop="20dp"
+        android:textColor="#6B38C6"
+        android:textColorHint="#6B38C6"
+        android:textStyle="normal"
+        android:hint="School License number"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/Mtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingTop="20dp"
+        android:textColor="#6B38C6"
+        android:textColorHint="#6B38C6"/>
+
+    <EditText
+        android:id="@+id/Mtconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="confirm"
+        android:inputType="textPassword"
+        android:paddingTop="20dp"
+        android:textColor="#6B38C6"
+        android:textColorHint="#6B38C6" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:paddingTop="10dp"
+    android:paddingLeft="5dp"
+    android:paddingBottom="10dp"
+    android:text="select the teaching subject"/>
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tamil"
+
+            android:textColor="#f016"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:textColor="#f016"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maths"
+            android:textColor="#f016"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Science"
+            android:textColor="#f016"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Social"
+            android:textColor="#f016"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Mentregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="24sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/but"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:shadowColor="#6B38C6"
+        android:text="Register" />
+
+</LinearLayout>

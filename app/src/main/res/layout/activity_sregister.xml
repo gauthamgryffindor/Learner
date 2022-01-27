@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SregisterActivity">
+
+<EditText
+    android:id="@+id/Studentname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="username"
+    android:paddingTop="20dp"
+    android:inputType="textPersonName"
+    android:textColor="#6B38C6"
+    android:textColorHint="#6B38C6"/>
+
+<EditText
+android:id="@+id/Stuemail"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:ems="10"
+android:hint="Email"
+android:inputType="textEmailAddress"
+android:paddingTop="20dp"
+android:textColor="#6B38C6"
+android:textColorHint="#6B38C6"
+android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/Schoolname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="School Name"
+        android:inputType="textPersonName"
+        android:paddingTop="20dp"
+        android:textColor="#6B38C6"
+        android:textColorHint="#6B38C6" />
+
+    <EditText
+android:id="@+id/stupass"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="password"
+android:inputType="textPassword"
+android:paddingTop="20dp"
+android:textColor="#6B38C6"
+android:textColorHint="#6B38C6"/>
+
+<EditText
+android:id="@+id/stconfirm"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:ems="10"
+android:hint="confirm"
+android:inputType="textPassword"
+android:paddingTop="20dp"
+android:textColor="#6B38C6"
+android:textColorHint="#6B38C6" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the subject to learn"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <RadioButton
+        android:id="@+id/radioButton01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tamil"
+
+        android:textColor="#f016"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <RadioButton
+        android:id="@+id/radioButton02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:textColor="#f016"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <RadioButton
+        android:id="@+id/radioButton03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maths"
+        android:textColor="#f016"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radioButton04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Science"
+        android:textColor="#f016"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <RadioButton
+        android:id="@+id/radioButton05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Social"
+        android:textColor="#f016"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+</RadioGroup>
+
+
+<Button
+        android:id="@+id/sturegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/but"
+        android:textSize="24sp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:shadowColor="#6B38C6"
+        android:text="Register" />
+
+
+</LinearLayout>
